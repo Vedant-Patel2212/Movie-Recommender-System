@@ -33,8 +33,8 @@ def recommend(movie, top_n=50):
 st.set_page_config(page_title="Movie Recommender", layout="wide")
 st.header('🎬 Movie Recommender System')
 
-movies = pickle.load(open('model/movie_list.pkl', 'rb'))
-similarity = pickle.load(open('model/similarity.pkl', 'rb'))
+movies = pickle.load(open('model/movie-list.pkl', 'rb'))
+similarity = pickle.load(open('model/similarity_list.pkl', 'rb'))
 movie_list = movies['title'].values
 selected_movie = st.selectbox("Type or select a movie from the dropdown", movie_list)
 

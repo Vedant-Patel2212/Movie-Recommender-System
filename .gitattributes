@@ -1,2 +1,4 @@
 *.pkl filter=lfs diff=lfs merge=lfs -text
 model/*.pkl filter=lfs diff=lfs merge=lfs -text
+movie-list.pkl filter=lfs diff=lfs merge=lfs -text
+similarity_list.pkl filter=lfs diff=lfs merge=lfs -text
